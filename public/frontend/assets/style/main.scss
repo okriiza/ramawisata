@@ -1,0 +1,280 @@
+body{
+   font-family: 'Assistant', sans-serif;
+}
+
+.bg-red {
+   background-color: #dc3545;
+   color: #fff;
+ }
+ 
+ .text-red {
+   color: #dc3545;
+ }
+header{
+   padding: 180px 0 165px;
+   margin-top: -70px;
+   background-image: url("../image/logo/header.jpg");
+   background-size: cover;
+   h1,p{
+      color: #fff;
+   }
+   h1{
+      font-family: 'Playfair Display', serif;
+      font-weight: 800;
+      font-size: 50px;
+   }
+   p{
+      font-size: 22px;
+   }
+   .btn-getstarted {
+      background-color: #dc3545;
+      color: #fff;
+
+      &:hover {
+         background-color: #fff;
+         color: #dc3545;
+         border: 1px solid #dc3545;
+      }
+   }
+}
+
+.section-paket-pariwisata{
+   padding-bottom: 30px;
+   h1{
+      font-family: 'Playfair Display', sans-serif;
+      font-weight: 800;
+      font-size: 40px;
+   }
+   p{
+      font-family: 'Assistant', sans-serif;
+      font-weight: lighter;
+      font-size: 18px;
+   }
+}
+
+.section-paket-content{
+   .section-paket-list{
+      .card-pariwisata{
+         min-height: 380px !important;
+         background-color: #ddd;
+         color: #fff;
+         position: relative;
+         background-size: cover;
+         background-position: 50% 50%;
+         margin-bottom: 20px;
+         border-radius: 10px;
+         .card-pariwisata-overlay{
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            top: 0;
+            left: 0;
+            padding: 30px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            background: rgba(0, 0, 0, 0.35);
+            color: white;
+            .pariwisata-country{
+               font-size: 14px;
+               font-weight: bold;
+            }
+            .pariwisata-location{
+               font-size: 22px;
+               font-family: 'Playfair Display', sans-serif;
+               font-weight: 800;
+            }
+            .pariwisata-button{
+               border-radius: 10px;
+               .btn-pariwisata-details{
+                  background-color: #dc3545;
+                  color: #fff;
+
+                  &:hover {
+                     background-color: #fff;
+                     color: #dc3545;
+                     border: 1px solid #dc3545;
+                  }
+               }
+            }
+         }
+      }
+   }
+}
+
+.section-pelayanan-content{
+   min-height: 550px;
+   background-color: #dc3545;
+   margin-top: 40px;
+   .section-list-pelayanan{
+      color: #fff;
+      .section-title-pelayanan{
+         padding-top: 60px;
+         padding-bottom: 60px;
+         h1{
+            font-family: 'Playfair Disply',serif;
+            font-weight: 800;
+            font-size: 40px;
+         }
+         p{
+            font-weight: lighter;
+            font-size: 18px;
+         }
+      }
+      .icon-pelayanan{
+         font-size: 50px;
+      }
+      .pelayanan-title{
+         font-size: 20px;
+         font-weight: 600;
+      }
+      .pelayanan-des{
+         font-size: 18px;
+         font-weight: lighter;
+      }
+   }
+}
+.section-galeri{
+   margin-top: 80px;
+   margin-bottom: 80px;
+   .section-judul-galeri{
+      margin-bottom: 45px;
+      h1{
+         font-family: "Playfair Display", sans-serif;
+         font-weight: 800;
+      }
+      p{
+         font-family: "Assistant", sans-serif;
+         font-weight: lighter;
+         font-size: 18px;
+      }
+   }
+}
+.section-footer{
+   background-color: #dc3545;
+   color: #fff;
+   h5{
+      font-weight: bold;
+      font-size: 20px;
+   }
+   .icon-media-sosial,a{
+      font-size: 25px;
+      color: #fff;
+      &:hover{
+         color: #C4C4C4;
+      }
+   }
+
+}
+
+.section-details-header {
+   min-height: 310px;
+   background: #D26262;
+   margin-top: -70px;
+   }
+
+   .section-details-content {
+   margin-top: -210px;
+   min-height: 100vh;
+
+   .breadcrumb {
+      background-color: transparent;
+      padding: 0;
+      margin-bottom: 30px;
+   }
+
+   .breadcrumb-item {
+      color: #ddd;
+      &.active {
+         font-weight: bold;
+         color: #ddd;
+      }
+   }
+
+   .card-details {
+      padding: 30px;
+      border-radius: 11px;
+      margin-bottom: 30px;
+   
+      h1 {
+         font-size: 24px;
+      }
+   
+      h2 {
+         font-size: 18px;
+      }
+   
+      p {
+         font-size: 18px;
+         color: #b1b1b1;
+      }
+      h3 {
+         font-weight: 300;
+         font-size: 14px;
+         color: #071c4d;
+      }
+      .nb{
+      font-size: 11px;
+      font-weight: bold;
+      color: #000;
+      }
+
+      .trip-informations {
+         ul {
+            font-weight: 300;
+            font-size: 18px;
+            color: #000;
+         }
+         li {
+            font-weight: 300;
+            font-size: 18px;
+            // color: #b1b1b1;
+         }
+      }
+
+      .payment-instructions {
+         font-weight: 300;
+         font-size: 14px;
+         color: #b1b1b1;
+      }
+   }
+
+   // .card-right {
+   // //   border-bottom-left-radius: 0;
+   // //   border-bottom-right-radius: 0;
+   // //   border-bottom: 0;
+   // }
+   .gallery {
+      .xzoom-container {
+         display: block;
+         .xzoom {
+            width: 100%;
+            box-shadow: none;
+            margin-bottom: 10px;
+         }
+
+         .xactive {
+            border: 4px solid #dc3545;
+            box-shadow: none;
+         }
+      }
+   }
+   .btn-whatsapp{
+      background-color: #dc3545;
+      color: #fff;
+   
+      &:hover {
+         background-color: #fff;
+         color: #dc3545;
+         border: 1px solid #dc3545;
+      }
+   }
+   .btn-telpon{
+      background-color: #C4C4C4;
+      color: #000;
+
+      &:hover {
+      background-color: #959595;
+      color: #000;
+      }
+   }
+}
