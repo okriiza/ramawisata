@@ -4,14 +4,12 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreatePricePackagesTable extends Migration
+return new class extends Migration
 {
     /**
      * Run the migrations.
-     *
-     * @return void
      */
-    public function up()
+    public function up(): void
     {
         Schema::create('price_packages', function (Blueprint $table) {
             $table->id();
@@ -20,18 +18,15 @@ class CreatePricePackagesTable extends Migration
             $table->integer('seat_59');
             $table->integer('seat_47');
             $table->integer('seat_30');
-            $table->softDeletes();
             $table->timestamps();
         });
     }
 
     /**
      * Reverse the migrations.
-     *
-     * @return void
      */
-    public function down()
+    public function down(): void
     {
         Schema::dropIfExists('price_packages');
     }
-}
+};
